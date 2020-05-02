@@ -46,12 +46,14 @@ class IncomeTax:
     def __init__(self):
         self.name = 'Income Tax'
         self.position = 5
+        self.cost = 200
 
 
 class LuxuryTax:
     def __init__(self):
         self.name = 'Luxury Tax'
         self.position = 39
+        self.cost = 75
 
 
 class Go:
