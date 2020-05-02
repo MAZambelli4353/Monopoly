@@ -4,6 +4,8 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
+
+
 class Property:
     def __init__(self, name, price, price_per_house, rent, rent1, rent2, rent3, rent4, rent_hotel, mortgage,
                  placement):
